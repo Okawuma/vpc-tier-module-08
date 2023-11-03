@@ -34,8 +34,8 @@ stands a 3-tier VPC with NAT,ASG,SG,ALB,and NLB.
 10. create a private database subnet in az2
 
 ####  (review the main.tf file code and save)
-### On the other hand, create variables as follows;
-#### - for the region and project_name.
+####  On the other hand, create variables as follows;
+#### 1. for the region and project_name.
 #### - create variable for the public_subnet_az1_cidr
 #### - create variable for the public_subnet_az2_cidr
 #### - create variable for the private_app_subnet_az1_cidr
